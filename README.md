@@ -7,7 +7,8 @@ HOW TO USE:
 1 ) run 
     $ npm i
 
-2 ) create config.js file, with own own download url, and file name ( see config.example.js )
+2 ) create config.js file, with own download url, and file name ( see config.example.js )
+
 3 ) Search for duration for chosen event in specified range 
 
     a) Edit input.js file, and run : 
