@@ -31,6 +31,8 @@ const getInput = () => {
 }
 
 const setInput = (eventName, fromDate, toDate) => {
+    
+    if ( ! eventName || ! fromDate || ! toDate) {throw new Error('Arguments missing!')}
     return {
         eventName,
         fromDate,
