@@ -1,0 +1,30 @@
+{
+  "name": "google-calendar-duration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "duration": "index.js"  
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.15.1",
+    "ical": "^0.5.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szopqa/google-calendar-events-duration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szopqa/google-calendar-events-duration/issues"
+  },
+  "homepage": "https://github.com/szopqa/google-calendar-events-duration#readme"
+}

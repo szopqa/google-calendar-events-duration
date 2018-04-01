@@ -69,7 +69,7 @@ const formatOutput = (eventName, eventsDuration, from, to) => {
 
 const app = ({googleCalendarDownloadURL, calendarFileName}) => {
 
-    const getDurationForEventInRange = async (eventName, fromDate, toDate) => {
+    const getDurationForEventInRange = async ({eventName, fromDate, toDate}) => {
         let calendarData;
         try {
             await downloadCalendarFile(googleCalendarDownloadURL, calendarFileName);
